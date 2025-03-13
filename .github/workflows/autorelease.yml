@@ -35,7 +35,7 @@ jobs:
 
       - name: Make Linux Arm64 binary
         working-directory: .
-        run: make linux-arm64
+        run: make release
 
        
       - name: Release binaries
